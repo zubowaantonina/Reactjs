@@ -1,0 +1,11 @@
+.MyComponent {
+    display: block;
+    color: rgb(57, 3, 182)
+}
+
+.input {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
