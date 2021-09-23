@@ -54,7 +54,7 @@ const Dogs = () => {
         {error && <div>Возникла ошибка</div>}
 
         {!loading && !error && data && (
-          <img className={classes.catImg} src={data.url} alt="Dog" />
+          <img className={classes.catImg} src={data.message} alt="Dog" />
         )}
       </div>
 
